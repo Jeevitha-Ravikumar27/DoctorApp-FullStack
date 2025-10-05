@@ -2,7 +2,7 @@ import express from "express";
 import cors from "cors";
 import dotenv from "dotenv";
 dotenv.config({ path: "./.env" });
-import connectCloudinary from "./config/Cloudinary.js";
+import connectCloudinary from "./config/cloudinary.js";
 
 import connectDB from "./config/mongodb.js";
 import adminRouter from "./routes/adminRoute.js";
